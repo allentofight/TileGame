@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmmtOwzAMgAuIbVBgPCaeUsUEQ4Xx6JF2NI7C0XCkVLKipbFdpwmjPz5VWRPHn2JXrbSqKIoKaOz1DriPwIOzjzYmbo3GS+AZeFNkBTyhPepIPi8o7tLZUwMcs7H7DXEeDI+Nhewxngf/PN4LWs9iup4PHwOdR4Xivhbhvl0DE2BqmRHWrZ19YlMHroZP4AyYW86Z62MwFXKKPE6Ia2bEnCaCdfM/AD7vXfe4GZBbQj6Ga+CQ6eHrdW24OfieI1waRST7a3mkRurxSGDIOFIP887zFbgOGee/11VujB55MXrkxeiRF6NHXoweecH12AP2M+SAkaOZewQcZ0iJPEI5lmjOArhMCM7LjK+Qx4VnDeT87Xpg/1S0HtT5kPNPl4d7btt+58wNseseofkhj1BcjZqgxI/loVnbHA/feJtH33rl1KDUi9IffeqV20vS88rNw7eGez7U/tDoF46HRn9oe/TpqT4e3FrpW/uxPEplD0ovpaorX/1zekGyJgcPrV6K7SG9H8sD3uU3JfqvSGnHPtqY0vsS3JiLjueVpL5TYzzcb63WI+W3IRfz7fgLquUIyw==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object name="SpawnPoint" x="80" y="299"/>
+  <object name="EnemySpawn1" x="535" y="295" width="20" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn1" x="96" y="410" width="22" height="26">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztybEJAEAIA0A3cf8t5eELCwsrqzsIJCQCbuVP31Pf/gAAAAAAAAAAAE8BrwoAuw==
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1lsKgCAQAECvVPc/XB/1sYiUhg+KGRCT0nVTxJROW6hHlRintxhjRh6zcsljfmH80rixvV8lhXbp+em99XgXI7Zr93pLv/jtKK3nVan/yvOqNJ+7+mkuNf2B9UbeSWb7Qw5f1uu/rl6fHvHtMwAAAAAAAHIHsjQoCA==
+  </data>
+ </layer>
+</map>
